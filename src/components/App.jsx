@@ -8,9 +8,10 @@ import Contact from './contact';
 function App() {
 
   return (
-    <main className="bg-stone-300 max-w-screen-xl m-0 p-8 text-center min-w-[375px]">
+    <div className="bg-stone-300 ">
+    <main className="max-w-screen-xl m-0 p-8 text-center min-w-[375px] h-screen">
       <Navbar />
-      <section className="lg:flex lg:justify-between border border-black">
+      <section className="md:flex md:justify-between border border-black">
         <Header/>
         <Routes>
           <Route path="/" element={<About />} />
@@ -19,6 +20,7 @@ function App() {
         </Routes>
       </section>
     </main>
+    </div>
     
   )
 }

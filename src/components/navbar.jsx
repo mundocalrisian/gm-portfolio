@@ -13,7 +13,7 @@ return (
         {
             navOptions.map(([url, title]) => {
                 return (
-                    <div className="ml-4 p-4 border border-black">
+                    <div key={title} className="ml-4 p-4 border border-black">
                         <Link to ={url} className="border-0 hover:text-orange-600 font-medium">{title}</Link>
                     </div>
                 )

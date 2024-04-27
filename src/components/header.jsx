@@ -2,12 +2,11 @@
 export default function Header () {
 
     return (
-        <header className="flex flex-col lg:w-1/2 border border-black">
-            <h2 className="font-medium border border-black">Greg Munden</h2>
-            <div className="border border-black">
-            <p>This is me and it's who I am</p>
-            <p>I do this</p>
-            <p>And I do that</p>
+        <header className="flex flex-col md:w-1/2 border border-black text-left">
+            <h1 className="text-3xl pl-4 pt-4 pb-1 font-bold ">Gregory Munden</h1>
+            <div className=" pl-4 pb-4">
+                <h2 className="text-xl font-semibold">Junior Software Developer</h2>
+                <p>Slowly getting there...</p>
             </div>
         </header>
     )
