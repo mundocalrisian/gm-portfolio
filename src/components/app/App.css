@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-width: 375px;
+}
+
+.bio-section {
+display: flex;
+height: 50%;
+flex-direction: column;
+}
+
+@media (min-width: 1024px){
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .half-section {
+    width: 50%;
+    /* display: flex; */
+  }
+  .bio-section {
+    width: 50%;
+  }
+}
