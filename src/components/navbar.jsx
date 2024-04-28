@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar () {
 
@@ -9,17 +9,22 @@ export default function Navbar () {
     ]
 
 return (
-    <nav className="flex flex-row justify-end border border-black">
-        {
-            navOptions.map(([url, title]) => {
-                return (
-                    <div key={title} className="ml-4 p-4 border border-black">
-                        <Link to ={url} className="border-0 hover:text-orange-600 font-medium">{title}</Link>
-                    </div>
-                )
-            })
-        }
-    </nav>
+
+    <ul className="flex justify-end border-b m-">
+        {navOptions.map(([url, title]) => {
+            return (
+                <li key={title} className="-mb-px mr-1">
+            <NavLink to={url} className={({ isActive}) =>
+            [
+                isActive ? 
+                "inline-block border-l border-t border-r border-black rounded-t py-2 px-4 text-orange-600 font-medium" : 
+                "inline-block py-2 px-4 text-black hover:text-orange-600 font-medium",
+            ]
+        } >{title}</NavLink>
+        </li>
+            )
+        })}
+    </ul>
 )
 
 }
