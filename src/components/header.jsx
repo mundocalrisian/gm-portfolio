@@ -3,8 +3,20 @@ import linkedIn from '../assets/linkedin.svg'
 import envelope from '../assets/envelope.svg'
 import instagram from '../assets/instagram.svg'
 import tumblr from '../assets/square-tumblr.svg'
+import { DarkContext } from '../context/dark'
+import { useContext } from 'react'
+
 
 export default function Header () {
+
+    const {dark, setDark} = useContext(DarkContext)
+    
+    const toggleDark = () => {
+        setDark((currDark) => {
+                return currDark === 'false' ? 'true' : 'false'
+            })
+        document.documentElement.classList.toggle("dark");
+    }
     
     const linkOptions = [
         ["GitHub", gitHub, "https://github.com/mundocalrisian"],
@@ -33,6 +45,17 @@ export default function Header () {
                     )
                 })}
             </ul>
+            <div className='ml-4 mt-8'>
+                <input 
+                    type="checkbox" 
+                    className=""
+                    name="dark-mode-toggle-switch"
+                    onClick={toggleDark} 
+                />
+                <label className="ml-2" htmlFor="dark-mode-toggle-switch">
+                    Toggle Dark Mode
+                </label>
+            </div>
         </header>
     )
 }

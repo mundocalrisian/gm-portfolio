@@ -2,7 +2,7 @@
 export default function Projects () {
 
     return (
-        <section className="md:w-1/2 lg:w-2/3 ">
+        <section className="md:w-1/2 lg:w-2/3 xl:w-3/4">
             <div className="md:mt-4">
             <h2 className="font-medium mb-4 sm:block md:hidden">My projects</h2>
                 <p>Roquefort rubber cheese fondue. Cheese slices lancashire pecorino queso boursin pepper jack dolcelatte croque monsieur. Camembert de normandie blue castello cheesecake squirty cheese cheesecake pepper jack cheesy grin camembert de normandie. Chalk and cheese pecorino boursin squirty cheese melted cheese boursin goat parmesan. Emmental cottage cheese stilton.
