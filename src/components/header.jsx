@@ -21,13 +21,13 @@ export default function Header () {
                 <h2 className="text-xl font-semibold">Junior Software Developer</h2>
                 <p>Slowly getting there...</p>
             </div>
-            <ul className='flex flex-start mt-8 mb-8'>
+            <ul className='flex justify-around md:justify-start mt-0 mb-4 md:ml-2 '>
                 {linkOptions.map(([title, icon, url]) => {
                     
                     return (
-                        <li key={title} className='ml-4'>
-                            <a href={url} target="_blank" rel="noreferrer noopener" className='mr-10'>
-                            <img src={icon} className="filter-orange2" alt={`${title} link`} width="30" height="auto"/>
+                        <li key={title} className='ml-2 mr-2 h-8'>
+                            <a href={url} target="_blank" rel="noreferrer noopener" className='md:mr-10'>
+                            <img src={icon} className="filter-orange2" alt={`${title} link`} width="30" height="30"/>
                             </a>
                         </li>
                     )

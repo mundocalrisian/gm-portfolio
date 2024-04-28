@@ -9,6 +9,7 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+    @apply bg-stone-300 h-dvh
 }
 
 .filter-orange1 {
