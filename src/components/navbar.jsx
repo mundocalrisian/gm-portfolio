@@ -10,15 +10,15 @@ export default function Navbar () {
 
 return (
 
-    <ul className="flex justify-end border-b m-">
+    <ul className="flex justify-end">
         {navOptions.map(([url, title]) => {
             return (
                 <li key={title} className="-mb-px mr-1">
             <NavLink to={url} className={({ isActive}) =>
             [
                 isActive ? 
-                "inline-block border-l border-t border-r border-black rounded-t py-2 px-4 text-orange-600 font-medium" : 
-                "inline-block py-2 px-4 text-black hover:text-orange-600 font-medium",
+                "inline-block border-2 border-orange-500 rounded-md py-2 px-4 text-black font-medium" : 
+                "inline-block py-3 px-4 text-black hover:text-orange-600 font-medium",
             ]
         } >{title}</NavLink>
         </li>

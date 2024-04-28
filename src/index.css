@@ -11,3 +11,9 @@
     "slnt" 0;
 }
 
+.filter-orange1 {
+  filter: invert(36%) sepia(39%) saturate(2852%) hue-rotate(359deg) brightness(100%) contrast(92%);
+}
+.filter-orange2 {
+  filter: invert(48%) sepia(94%) saturate(2337%) hue-rotate(353deg) brightness(106%) contrast(95%);
+}

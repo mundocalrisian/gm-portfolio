@@ -11,7 +11,7 @@ function App() {
     <div className="bg-stone-300 ">
     <main className="max-w-screen-xl m-0 p-8 text-center min-w-[375px] h-screen">
       <Navbar />
-      <section className="md:flex md:justify-between border border-black">
+      <section className="md:flex md:justify-between">
         <Header/>
         <Routes>
           <Route path="/" element={<About />} />
