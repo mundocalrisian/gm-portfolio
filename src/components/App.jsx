@@ -1,19 +1,17 @@
-import { useState } from 'react'
 import { Route, Routes } from "react-router-dom";
-import './App.css'
-import Navbar from '../navbar/navbar';
-import Header from '../header/header';
-import Projects from '../projects/projects';
-import Contact from '../contact/contact';
-import About from '../about/about';
-
+import Navbar from './navbar';
+import Header from './header';
+import About from './about';
+import Projects from './projects';
+import Contact from './contact';
 
 function App() {
 
   return (
-    <main>
+    <div className="">
+    <main className="max-w-screen-xl m-0 p-8 text-center min-w-[375px] h-screen">
       <Navbar />
-      <section className='main-section'>
+      <section className="md:flex md:justify-between">
         <Header/>
         <Routes>
           <Route path="/" element={<About />} />
@@ -22,6 +20,7 @@ function App() {
         </Routes>
       </section>
     </main>
+    </div>
     
   )
 }

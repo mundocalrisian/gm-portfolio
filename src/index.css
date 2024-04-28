@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -5,13 +9,12 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+    @apply bg-stone-300 h-dvh
 }
 
-* {
-  border: 1px solid black;
+.filter-orange1 {
+  filter: invert(36%) sepia(39%) saturate(2852%) hue-rotate(359deg) brightness(100%) contrast(92%);
 }
-
-h2 {
-  font-weight: 500;
+.filter-orange2 {
+  filter: invert(48%) sepia(94%) saturate(2337%) hue-rotate(353deg) brightness(106%) contrast(95%);
 }
-
