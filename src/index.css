@@ -9,7 +9,9 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
-    @apply bg-stone-300 h-dvh
+}
+body{
+  @apply bg-zinc-50 text-black dark:bg-zinc-800 dark:text-orange-50
 }
 
 .filter-orange1 {
