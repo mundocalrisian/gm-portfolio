@@ -4,7 +4,7 @@ export const DarkContext = createContext()
 
 export const DarkProvider = ({children}) => {
     const [dark, setDark] = useState('false')
-    console.log(dark, '-----dark (context)');
+    // console.log(dark, '-----dark (context)');
 
     return (
         <DarkContext.Provider value={{dark, setDark}}>

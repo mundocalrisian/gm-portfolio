@@ -28,7 +28,7 @@ export default function Header () {
 
     return (
         <header className="flex flex-col md:w-1/2 text-left">
-            <h1 className="text-3xl pl-4 pt-4 pb-1 font-bold ">Gregory Munden</h1>
+            <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
             <div className=" pl-4 pb-4">
                 <h2 className="text-xl font-semibold">Junior Software Developer</h2>
                 <p>Slowly getting there...</p>
@@ -38,18 +38,19 @@ export default function Header () {
                     
                     return (
                         <li key={title} className='ml-2 mr-2 h-8'>
-                            <a href={url} target="_blank" rel="noreferrer noopener" className='md:mr-10'>
+                            <a href={url} target="_blank" rel="noreferrer noopener" className='md:mr-10 '>
                             <img src={icon} className="filter-orange2" alt={`${title} link`} width="30" height="30"/>
                             </a>
                         </li>
                     )
                 })}
             </ul>
-            <div className='ml-4 mt-8'>
+            <div className='ml-4 mt-4 mb-4'>
                 <input 
                     type="checkbox" 
                     className=""
                     name="dark-mode-toggle-switch"
+                    id="dark-mode-toggle-switch"
                     onClick={toggleDark} 
                 />
                 <label className="ml-2" htmlFor="dark-mode-toggle-switch">

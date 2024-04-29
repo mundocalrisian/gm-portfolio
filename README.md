@@ -14,4 +14,3 @@ Portfolio for myself
 -   Inter typeface - https://rsms.me/inter/
 -   Simple Icons - https://github.com/simple-icons/simple-icons/
 -   Font Awesome - https://github.com/FortAwesome/Font-Awesome
--   React-swicth https://github.com/markusenglund/react-switch
