@@ -1,13 +1,18 @@
+import LeedsYouAround from "./projects/leeds-you-around";
+import MundoNewsBe from "./projects/mundo-news-be";
+import MundoNewsFe from "./projects/mundo-news-fe";
+import MundoWeather from "./projects/mundo-weather";
 
 export default function Projects () {
 
     return (
-        <section className="md:w-1/2 lg:w-2/3 xl:w-3/4">
-            <div className="md:mt-4">
+        <section className="md:w-[350px] lg:w-[600px]  xl:w-[900px] sm:mt-0 md:mt-4">
+            <div className="md:mt-4 md:w-400">
             <h2 className="font-medium mb-4 sm:block md:hidden">My projects</h2>
-                <p>Roquefort rubber cheese fondue. Cheese slices lancashire pecorino queso boursin pepper jack dolcelatte croque monsieur. Camembert de normandie blue castello cheesecake squirty cheese cheesecake pepper jack cheesy grin camembert de normandie. Chalk and cheese pecorino boursin squirty cheese melted cheese boursin goat parmesan. Emmental cottage cheese stilton.
-                <br></br> Edam hard cheese paneer. Say cheese bavarian bergkase gouda dolcelatte cheese slices cheese slices pepper jack mozzarella. Emmental danish fontina cheesecake emmental macaroni cheese boursin cottage cheese hard cheese. Bocconcini the big cheese cheese strings bavarian bergkase cow.</p>
-                <p>Babybel the big cheese monterey jack. Babybel cut the cheese cheese strings port-salut paneer chalk and cheese fondue cream cheese. Fondue cow smelly cheese fromage frais brie cottage cheese lancashire mozzarella. Goat cheese strings emmental airedale halloumi when the cheese comes out everybody's happy cheese slices caerphilly. Manchego smelly cheese who moved my cheese cheese and biscuits feta when the cheese comes out everybody's happy swiss gouda. Chalk and cheese cut the cheese fromage.</p>
+            <LeedsYouAround />
+            <MundoNewsFe />
+            <MundoNewsBe />
+            <MundoWeather />
             </div>
         </section>
     )

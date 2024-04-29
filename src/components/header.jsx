@@ -4,10 +4,14 @@ import envelope from '../assets/envelope.svg'
 import instagram from '../assets/instagram.svg'
 import tumblr from '../assets/square-tumblr.svg'
 import { DarkContext } from '../context/dark'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 
 
 export default function Header () {
+
+    useEffect (() => {
+        toggleDark()
+    }, [])
 
     const {dark, setDark} = useContext(DarkContext)
     
@@ -27,19 +31,19 @@ export default function Header () {
     ]
 
     return (
-        <header className="flex flex-col md:w-1/2 text-left">
+        <header className="flex flex-col w-[350px] text-left">
             <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
             <div className=" pl-4 pb-4">
                 <h2 className="text-xl font-semibold">Junior Software Developer</h2>
                 <p>Slowly getting there...</p>
             </div>
-            <ul className='flex justify-around md:justify-start mt-0 mb-4 md:ml-2 '>
+            <ul className='flex justify-start md:justify-start mt-0 mb-4 ml-2 '>
                 {linkOptions.map(([title, icon, url]) => {
                     
                     return (
                         <li key={title} className='ml-2 mr-2 h-8'>
-                            <a href={url} target="_blank" rel="noreferrer noopener" className='md:mr-10 '>
-                            <img src={icon} className="filter-orange2" alt={`${title} link`} width="30" height="30"/>
+                            <a href={url} target="_blank" rel="noreferrer noopener" className=' '>
+                            <img src={icon} className="filter-orange2 opacity-80 hover:opacity-100" alt={`${title} link`} width="30" height="30"/>
                             </a>
                         </li>
                     )
@@ -52,6 +56,7 @@ export default function Header () {
                     name="dark-mode-toggle-switch"
                     id="dark-mode-toggle-switch"
                     onClick={toggleDark} 
+                    defaultChecked={true}
                 />
                 <label className="ml-2" htmlFor="dark-mode-toggle-switch">
                     Toggle Dark Mode
