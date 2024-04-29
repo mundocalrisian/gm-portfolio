@@ -20,10 +20,10 @@ export default function About () {
         cssLogo, 
         nodeLogo, 
         npmLogo, 
-        tailwindLogo, 
+        vsCodeLogo,
         jestLogo,
         postgreSqlLogo, 
-        vsCodeLogo,
+        tailwindLogo, 
     ]
     
     return (

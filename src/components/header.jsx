@@ -1,8 +1,8 @@
-import gitHub from '../assets/github.svg'
-import linkedIn from '../assets/linkedin.svg'
-import envelope from '../assets/envelope.svg'
-import instagram from '../assets/instagram.svg'
-import tumblr from '../assets/square-tumblr.svg'
+import gitHub from '../assets/contact-logos/github.svg'
+import linkedIn from '../assets/contact-logos/linkedin.svg'
+import envelope from '../assets/contact-logos/envelope.svg'
+import instagram from '../assets/contact-logos/instagram.svg'
+import tumblr from '../assets/contact-logos/square-tumblr.svg'
 import { DarkContext } from '../context/dark'
 import { useContext, useEffect } from 'react'
 
@@ -37,7 +37,7 @@ export default function Header () {
                 <h2 className="text-xl font-semibold">Junior Software Developer</h2>
                 <p>Slowly getting there...</p>
             </div>
-            <ul className='flex justify-start md:justify-start mt-0 mb-4 ml-2 '>
+            <ul className='flex justify-start items-center md:justify-start mt-0 mb-4 ml-2 '>
                 {linkOptions.map(([title, icon, url]) => {
                     
                     return (
