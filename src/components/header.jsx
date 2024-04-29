@@ -42,7 +42,7 @@ export default function Header () {
                     
                     return (
                         <li key={title} className='ml-2 mr-2 h-8'>
-                            <a href={url} target="_blank" rel="noreferrer noopener" className=' '>
+                            <a href={url} target="_blank" rel="noreferrer noopener">
                             <img src={icon} className="filter-orange2 opacity-80 hover:opacity-100" alt={`${title} link`} width="30" height="30"/>
                             </a>
                         </li>

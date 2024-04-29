@@ -1,12 +1,32 @@
-
+import mundoNewsFeScreen1 from "../../assets/project-screenshots/MundoNewsFE-1.png"
+import mundoNewsFeScreen2 from "../../assets/project-screenshots/MundoNewsFE-2.png"
 
 export default function MundoNewsFe () {
+
+    const techStack = ["React.js", "HTML", "CSS", "JavaScript", "Axios", "Netlify"]
 
     return (
         <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
             <h2 className="text-xl font-medium pb-4 dark:text-white">Mundo News - Frontend</h2>
-            <p>Pepper jack parmesan swiss. Cottage cheese roquefort st. agur blue cheese rubber cheese mozzarella the big cheese stilton cheesy grin. Rubber cheese croque monsieur rubber cheese emmental fromage frais cheddar croque monsieur monterey jack. Swiss edam cheese strings fromage stinking bishop say cheese who moved my cheese paneer. Jarlsberg st. agur blue cheese cheesy grin cheddar macaroni cheese say cheese smelly cheese parmesan. Edam feta ricotta croque monsieur chalk and cheese camembert de normandie everyone loves chalk and cheese. Airedale macaroni cheese bocconcini cheesecake emmental swiss cheese slices.
+            <p>A CRUD (create, read, update, delete) web application built using React.js. The project was planned and completed within 5 days as part of the frontend review during my Northcoders Bootcamp.
             </p>
+            <div className="flex justify-center">
+                <a href="https://mundo-news.netlify.app/" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2 border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white w-2/5 md:w-1/3 lg:w-1/4">View Site</a>
+                <a href="https://github.com/mundocalrisian/fe-mundo-news" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
+            </div>
+            <ul className="flex flex-wrap justify-around mt-4">
+                {
+                    techStack.map((tech) => {
+                        return (
+                        <li key= {tech} className=" p-2 font-normal border-2 m-2 rounded-lg border-sky-400 bg-sky-400/20 dark:border-sky-900 dark:bg-sky-950">{tech}</li>
+                    )
+                    })
+                }
+            </ul>
+            <div className="flex flex-col lg:flex-row lg:justify-around mt-4">
+                <img src={mundoNewsFeScreen1} className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md md:w-auto lg:w-5/12 lg:mb-0"/>
+                <img src={mundoNewsFeScreen2} className="p-2 border border-zinc-300 bg-white drop-shadow-md md:w-auto lg:w-5/12 lg:mb-0"/>
+            </div>
         </section>
 
     )
