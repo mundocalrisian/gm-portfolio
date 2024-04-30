@@ -5,7 +5,7 @@ export default function Navbar () {
     const navOptions = [
         ["/", "About Me"], 
         ["/projects", "Projects"], 
-        ["/contact", "Contact"]
+        ["/gallery", "Gallery"]
     ]
 
 return (
@@ -18,7 +18,7 @@ return (
             [
                 isActive ? 
                 "inline-block border-2 border-orange-500 rounded-md py-2 px-4 text-black dark:text-orange-50 font-medium" : 
-                "inline-block py-3 px-4 hover:text-orange-600 text-black dark:text-orange-50 dark:hover:text-orange-600 font-medium",
+                "inline-block py-3 px-4 hover:text-orange-500 text-black dark:text-orange-50 dark:hover:text-orange-500 font-medium",
             ]
         } >{title}</NavLink>
         </li>

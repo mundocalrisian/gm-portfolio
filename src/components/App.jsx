@@ -3,7 +3,7 @@ import Navbar from './navbar';
 import Header from './header';
 import About from './about';
 import Projects from './projects';
-import Contact from './contact';
+import Gallery from './gallery';
 import Footer from "./footer";
 
 
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />}/>
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </section>
       </main>

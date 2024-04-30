@@ -20,3 +20,7 @@ body{
 .filter-orange2 {
   filter: invert(48%) sepia(94%) saturate(2337%) hue-rotate(353deg) brightness(106%) contrast(95%);
 }
+
+.filter-white {
+  filter: invert(100%) sepia(1%) saturate(326%) hue-rotate(266deg) brightness(116%) contrast(100%);
+}
