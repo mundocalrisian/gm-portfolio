@@ -39,11 +39,11 @@ export default function LeedsYouAround () {
                 }
             </ul> */}
             <ul className="flex flex-wrap justify-around mt-4">
-                {
+            {
                     techStack.map(([tech, url]) => {
                         return (
-                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col content-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
-                            <img src={url} className="h-10 mt-4"/>
+                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                            <img src={url} className="h-10 w-10 mt-4"/>
                             <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
