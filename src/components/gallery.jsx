@@ -1,5 +1,5 @@
 
-export default function Contact () {
+export default function Gallery () {
 
     return (
         <section className="md:w-[350px] lg:w-[600px]  xl:w-[900px] sm:mt-0 md:mt-4">

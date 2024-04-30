@@ -5,7 +5,7 @@ export default function Navbar () {
     const navOptions = [
         ["/", "About Me"], 
         ["/projects", "Projects"], 
-        ["/contact", "Contact"]
+        ["/gallery", "Gallery"]
     ]
 
 return (
