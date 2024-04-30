@@ -19,8 +19,8 @@ function App() {
     <>
       <main className="max-w-screen-xl m-0 p-8 text-center min-w-[375px]">
         <Navbar />
-        <section className="md:flex md:justify-between">
-          <Header/>
+        <Header/>
+        <section className="md:flex md:justify-end">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />}/>

@@ -29,7 +29,7 @@ export default function Header () {
     ]
 
     return (
-        <header className="flex flex-col w-[350px] text-left">
+        <header className="flex flex-col w-[350px] text-left md:fixed md:left-8 md:top-15 ">
             <section>
                 <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
                 <div className=" pl-4 pb-4">
@@ -55,14 +55,14 @@ export default function Header () {
             
             {/* <p className="text-sm md:pl-8"></p> */}
             <div className="ml-4 mb-2 w-5/6 flex flex-end items-center">
-                <label className="border-2 rounded-lg border-zinc-800/20 dark:border-orange-50/50 p-2 hover:cursor-pointer md:hidden" htmlFor="dark-mode-toggle-switch-footer">
-                    <img src={bulb} width="15" className={dark !=="true" ? 'filter-zinc': 'filter-orange-50'}/>
+                <label className="border-2 rounded-lg border-zinc-800/20 dark:border-orange-50/50 p-2 hover:cursor-pointer md:hidden" htmlFor="dark-mode-toggle-switch-header">
+                    <img src={bulb} width="15" alt="bulb icon toggle" className={dark !=="true" ? 'filter-zinc': 'filter-orange-50'}/>
                 </label>
                 <input 
                     type="checkbox" 
                     className=""
-                    name="dark-mode-toggle-switch"
-                    id="dark-mode-toggle-switch-footer"
+                    name="dark-mode-toggle-switch-header"
+                    id="dark-mode-toggle-switch-header"
                     onClick={toggleDark} 
                     defaultChecked={true}
                     hidden
