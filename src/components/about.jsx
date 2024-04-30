@@ -27,7 +27,7 @@ export default function About () {
     ]
     
     return (
-        <section className="md:w-3/5 lg:w-2/3  xl:w-[900px] md:pl-4 lg:pl-0 sm:mt-0 md:mt-4">
+        <section className="md:w-3/5 lg:w-2/3  xl:w-[900px] pl-4  lg:pl-0 sm:mt-0 md:mt-4">
             <article className="text-left">
                 <h3 className="text-xl font-medium mb-4">Hello there, I'm Greg</h3>
                 <p> Recently, I've graduated from a 3 month Bootcamp with <a href="https://northcoders.com/"  target="_blank" rel="noreferrer noopener" className="font-medium text-zinc-700 dark:text-orange-200 hover:text-orange-500 dark:hover:text-orange-500">Northcoders</a>, marking the beginning of a journey to realise a long term dream of mine to become a <span className="font-medium text-zinc-700 dark:text-sky-200">Software Developer</span>.</p><br/>
