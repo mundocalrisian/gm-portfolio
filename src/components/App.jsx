@@ -5,9 +5,15 @@ import About from './about';
 import Projects from './projects';
 import Gallery from './gallery';
 import Footer from "./footer";
+import { useEffect } from "react";
 
 
 function App() {
+
+  useEffect (() => {
+    document.documentElement.classList.toggle("dark");
+    console.log(document.documentElement.classList, "----is dark? in App");
+  }, [])
 
   return (
     <>

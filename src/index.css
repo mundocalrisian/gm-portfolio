@@ -14,11 +14,12 @@ body{
   @apply bg-zinc-50 text-black dark:bg-zinc-800 dark:text-orange-50
 }
 
-.filter-orange1 {
-  filter: invert(36%) sepia(39%) saturate(2852%) hue-rotate(359deg) brightness(100%) contrast(92%);
-}
-.filter-orange2 {
+.filter-orange {
   filter: invert(48%) sepia(94%) saturate(2337%) hue-rotate(353deg) brightness(106%) contrast(95%);
+}
+
+.filter-orange-50 {
+  filter: invert(95%) sepia(6%) saturate(1563%) hue-rotate(305deg) brightness(105%) contrast(111%);
 }
 
 .filter-white {
