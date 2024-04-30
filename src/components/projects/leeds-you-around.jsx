@@ -2,10 +2,23 @@ import lyaScreen1 from "../../assets/project-screenshots/LYA-Screen-1.png"
 import lyaScreen2 from "../../assets/project-screenshots/LYA-Screen-2.png"
 import lyaScreen3 from "../../assets/project-screenshots/LYA-Screen-3.png"
 import lyaScreen4 from "../../assets/project-screenshots/LYA-Screen-4.png"
+import reactNativeLogo from "../../assets/tech-stack-logos/react-native.svg"
+import expoLogo from "../../assets/tech-stack-logos/expo.svg"
+import firebaseLogo from "../../assets/tech-stack-logos/firebase.svg"
+import javascriptLogo from "../../assets/tech-stack-logos/javascript.svg"
+import jiraLogo from "../../assets/tech-stack-logos/jira.svg"
+import visionLogo from "../../assets/tech-stack-logos/google-vision-api.svg"
 
 export default function LeedsYouAround () {
 
-    const techStack = ["React Native", "Expo", "Firebase", "GoogleVision",  "JavaScript", "Jira"]
+    const techStack = [
+        ["React Native", reactNativeLogo], 
+        ["Expo", expoLogo], 
+        ["Firebase", firebaseLogo], 
+        ["GoogleVision", visionLogo], 
+        ["JavaScript", javascriptLogo], 
+        [ "Jira", jiraLogo]
+    ]
 
     return (
         <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
@@ -16,11 +29,23 @@ export default function LeedsYouAround () {
                 <a href="https://northcoders.com/project-phase/leedsyouaround" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2  border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white w-2/5 md:w-1/3 lg:w-1/4">Project Page</a>
                 <a href="https://github.com/EpicIssues/Leeds-You-Around" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 content-center border-2  rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
-            <ul className="flex flex-wrap justify-around mt-4">
+            {/* <ul className="flex flex-wrap justify-around mt-4">
                 {
                     techStack.map((tech) => {
                         return (
                         <li key= {tech} className=" p-2 font-normal border-2 m-2 rounded-lg border-sky-400 bg-sky-400/20 dark:border-sky-900 dark:bg-sky-950">{tech}</li>
+                    )
+                    })
+                }
+            </ul> */}
+            <ul className="flex flex-wrap justify-around mt-4">
+                {
+                    techStack.map(([tech, url]) => {
+                        return (
+                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col content-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                            <img src={url} className="h-10 mt-4"/>
+                            <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
+                        </li>
                     )
                     })
                 }
