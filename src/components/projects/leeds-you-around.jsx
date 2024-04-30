@@ -29,15 +29,6 @@ export default function LeedsYouAround () {
                 <a href="https://northcoders.com/project-phase/leedsyouaround" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2  border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white w-2/5 md:w-1/3 lg:w-1/4">Project Page</a>
                 <a href="https://github.com/EpicIssues/Leeds-You-Around" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 content-center border-2  rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
-            {/* <ul className="flex flex-wrap justify-around mt-4">
-                {
-                    techStack.map((tech) => {
-                        return (
-                        <li key= {tech} className=" p-2 font-normal border-2 m-2 rounded-lg border-sky-400 bg-sky-400/20 dark:border-sky-900 dark:bg-sky-950">{tech}</li>
-                    )
-                    })
-                }
-            </ul> */}
             <ul className="flex flex-wrap justify-around mt-4">
             {
                     techStack.map(([tech, url]) => {

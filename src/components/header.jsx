@@ -33,26 +33,28 @@ export default function Header () {
 
     return (
         <header className="flex flex-col w-[350px] text-left">
-            <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
-            <div className=" pl-4 pb-4">
-                <h2 className="text-xl font-semibold">Junior Software Developer</h2>
-                <p>Slowly getting there...</p>
-            </div>
-            <div className="ml-4">
-                <img src={meHeadshot} alt="a headshot of Greg" className="w-[150px] rounded-full "/>
-            </div>
-            <ul className='flex justify-start items-center md:justify-start mt-4 mb-4 ml-2'>
-                {linkOptions.map(([title, icon, url]) => {
-                    
-                    return (
-                        <li key={title} className='ml-2 mr-2 h-8'>
-                            <a href={url} target="_blank" rel="noreferrer noopener">
-                            <img src={icon} className="filter-orange2 opacity-80 hover:opacity-100" alt={`${title} link`} width="30" height="30"/>
-                            </a>
-                        </li>
-                    )
-                })}
-            </ul>
+            <section>
+                <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
+                <div className=" pl-4 pb-4">
+                    <h2 className="text-xl font-semibold">Junior Software Developer</h2>
+                    <p>Slowly getting there...</p>
+                </div>
+                <div className="ml-4">
+                    <img src={meHeadshot} alt="a headshot of Greg" className="w-[150px] rounded-full "/>
+                </div>
+                <ul className='flex justify-start items-center md:justify-start mt-4 mb-4 ml-2'>
+                    {linkOptions.map(([title, icon, url]) => {
+                        
+                        return (
+                            <li key={title} className='ml-2 mr-2 h-8'>
+                                <a href={url} target="_blank" rel="noreferrer noopener">
+                                <img src={icon} className="filter-orange2 opacity-80 hover:opacity-100" alt={`${title} link`} width="30" height="30"/>
+                                </a>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </section>
             <div className='ml-4 mt-4 mb-4'>
                 <input 
                     type="checkbox" 

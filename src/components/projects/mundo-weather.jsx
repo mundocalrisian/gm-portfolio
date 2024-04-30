@@ -28,7 +28,7 @@ export default function MundoWeather () {
                 <a href="https://github.com/mundocalrisian/fe-react-data-visualisation" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
             <ul className="flex flex-wrap justify-around mt-4">
-            {
+                {
                     techStack.map(([tech, url]) => {
                         return (
                         <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">

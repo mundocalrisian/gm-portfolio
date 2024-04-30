@@ -8,7 +8,6 @@ export default function Projects () {
     return (
         <section className="md:w-3/5 lg:w-4/5  xl:w-[900px] sm:mt-0 md:mt-4">
             <div className="md:mt-4 md:w-400">
-                {/* <h2 className="font-medium mb-4 sm:block md:hidden">My projects</h2> */}
                 <LeedsYouAround />
                 <MundoNewsFe />
                 <MundoNewsBe />
