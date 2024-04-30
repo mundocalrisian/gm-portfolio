@@ -43,7 +43,7 @@ export default function LeedsYouAround () {
                     techStack.map(([tech, url]) => {
                         return (
                         <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
-                            <img src={url} className="h-10 w-10 mt-4"/>
+                            <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
                             <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
@@ -51,10 +51,10 @@ export default function LeedsYouAround () {
                 }
             </ul>
             <div className="flex flex-row flex-wrap justify-around mt-4">
-                <img src={lyaScreen1} className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
-                <img src={lyaScreen2} className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
-                <img src={lyaScreen3} className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
-                <img src={lyaScreen4} className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
+                <img src={lyaScreen1} alt="the map view in the app" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
+                <img src={lyaScreen2} alt="the app camera in action" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
+                <img src={lyaScreen3} alt="the camera view in the app" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
+                <img src={lyaScreen4}  alt="the completion screen" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
             </div>
         </section>
 

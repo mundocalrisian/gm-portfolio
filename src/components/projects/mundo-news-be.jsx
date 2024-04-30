@@ -33,7 +33,7 @@ export default function MundoNewsBe () {
                     techStack.map(([tech, url]) => {
                         return (
                         <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
-                            <img src={url} className="h-10 w-10 mt-4"/>
+                            <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
                             <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
@@ -41,7 +41,7 @@ export default function MundoNewsBe () {
                 }
             </ul>
             <div className="flex flex-col lg:flex-row lg:justify-around mt-4">
-                <img src={mundoNewsBeScreen1} className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md md:w-auto lg:w-5/12 lg:mb-0"/>
+                <img src={mundoNewsBeScreen1} alt="some available endpoints" className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md md:w-auto lg:w-5/12 lg:mb-0"/>
             </div>
         </section>
     )

@@ -3,6 +3,7 @@ import linkedIn from '../assets/contact-logos/linkedin.svg'
 import envelope from '../assets/contact-logos/envelope.svg'
 import instagram from '../assets/contact-logos/instagram.svg'
 import tumblr from '../assets/contact-logos/square-tumblr.svg'
+import meHeadshot from "../assets/me-headshot.jpg"
 import { DarkContext } from '../context/dark'
 import { useContext, useEffect } from 'react'
 
@@ -37,7 +38,10 @@ export default function Header () {
                 <h2 className="text-xl font-semibold">Junior Software Developer</h2>
                 <p>Slowly getting there...</p>
             </div>
-            <ul className='flex justify-start items-center md:justify-start mt-0 mb-4 ml-2 '>
+            <div className="ml-4">
+                <img src={meHeadshot} alt="a headshot of Greg" className="w-[150px] rounded-full "/>
+            </div>
+            <ul className='flex justify-start items-center md:justify-start mt-4 mb-4 ml-2'>
                 {linkOptions.map(([title, icon, url]) => {
                     
                     return (
