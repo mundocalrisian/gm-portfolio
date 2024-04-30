@@ -29,7 +29,7 @@ export default function Header () {
     ]
 
     return (
-        <header className="flex flex-col w-[350px] text-left md:fixed md:left-8 md:top-15 ">
+        <header className="flex flex-col w-[350px] text-left md:fixed md:left-8 md:top-15 mb-2">
             <section>
                 <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
                 <div className=" pl-4 pb-4">
