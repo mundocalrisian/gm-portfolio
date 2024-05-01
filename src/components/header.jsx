@@ -33,8 +33,8 @@ export default function Header () {
             <section>
                 <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
                 <div className=" pl-4 pb-4">
-                    <h2 className="text-xl font-semibold">Junior Software Developer</h2>
-                    <p>Slowly getting there...</p>
+                    <h2 className="text-xl font-semibold mb-1">Junior Software Developer</h2>
+                    <p>Ilkley, West Yorkshire</p>
                 </div>
                 <div className="ml-4">
                     <img src={meHeadshot} alt="a headshot of Greg" className="w-[150px] rounded-full "/>
