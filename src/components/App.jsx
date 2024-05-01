@@ -22,7 +22,7 @@ function App() {
       </nav>
       <main className="max-w-screen-xl m-0 pr-8 pl-8 text-center min-w-[375px]">
         <Header/>
-        <section className="md:pt-20 md:flex md:justify-between md:relative md:left-[350px]">
+        <section className="md:pt-20 md:flex md:justify-end ">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />}/>
