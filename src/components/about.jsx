@@ -17,11 +17,13 @@ export default function About () {
         htmlLogo, 
         cssLogo, 
         nodeLogo, 
-        npmLogo, 
+    ]
+    const techStack2 = [
         vsCodeLogo,
+        npmLogo, 
+        tailwindLogo, 
         jestLogo,
         postgreSqlLogo, 
-        tailwindLogo, 
     ]
     
     return (
@@ -33,16 +35,26 @@ export default function About () {
                 <p>When not sitting in front of a computer, I'm happiest outdoors, surrounded by epic scenery. I love hiking and mountain biking, and through these, I've been lucky to explore some amazing landscapes in countries such as Iceland, Chile and Greenland. Photography has always fascinated me, and you can see some of mine here on this site, as well as the Tumblr blog I wrote whilst living in Iceland.</p><br/>
                 <p>If you'd like to know more, please feel free to reach out and contact me.</p>
             </article>
-            <ul className="mt-8 lg:mt-16 flex justify-around flex-wrap items-center">
-                {techStack.map((tech) => {
-                    return (
-                        <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
-                            <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
-                        </li>
-
-                    )
-                })}
-            </ul>
+            <div className="flex flex-col lg:mt-8 lg:flex-row ">
+                <ul className="mt-8 flex justify-around flex-wrap items-center lg:grow">
+                    {techStack.map((tech) => {
+                        return (
+                            <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
+                                <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
+                            </li>
+                        )
+                    })}
+                </ul>
+                <ul className="mt-8 flex justify-around flex-wrap items-center lg:grow">
+                    {techStack2.map((tech) => {
+                        return (
+                            <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
+                                <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </div>
         </section>
     )
 }
