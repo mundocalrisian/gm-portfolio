@@ -7,6 +7,8 @@ import meHeadshot from "../assets/me-headshot.jpg"
 import bulb from "../assets/lightbulb.svg"
 import { DarkContext } from '../context/dark'
 import { useContext, useEffect } from 'react'
+import Footer from './footer'
+import LightSwitch from './light-switch'
 
 
 export default function Header () {
@@ -27,9 +29,10 @@ export default function Header () {
         ["Instagram", instagram, "https://www.instagram.com/soundslikescience/"],
         ["Tumblr", tumblr, "https://www.tumblr.com/landoficeandrock"]
     ]
+    {/* lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 */}
 
     return (
-        <header className="flex flex-col w-[350px] text-left md:fixed md:left-8 md:top-15 mb-2">
+        <header className="flex flex-col justify-between md:sticky md:top-8 md:h-screen md:pb-24 w-[350px] text-left">
             <section>
                 <h1 className="text-4xl pl-4 pt-4 pb-2 font-bold">Greg Munden</h1>
                 <div className=" pl-4 pb-4">
@@ -54,22 +57,13 @@ export default function Header () {
             </section>
             
             {/* <p className="text-sm md:pl-8"></p> */}
-            <div className="ml-4 mb-2 w-5/6 flex flex-end items-center">
-                <label className="border-2 rounded-lg border-zinc-800/20 dark:border-orange-50/50 p-2 hover:cursor-pointer md:hidden" htmlFor="dark-mode-toggle-switch-header">
-                    <img src={bulb} width="15" alt="bulb icon toggle" className={dark !=="true" ? 'filter-zinc': 'filter-orange-50'}/>
-                </label>
-                <input 
-                    type="checkbox" 
-                    className=""
-                    name="dark-mode-toggle-switch-header"
-                    id="dark-mode-toggle-switch-header"
-                    onClick={toggleDark} 
-                    defaultChecked={true}
-                    hidden
-                />
-                <p onClick={toggleDark} className="ml-4 text-sm hover:cursor-pointer md:hidden">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>
+            <div className="ml-4 mb-4 w-5/6 flex flex-end items-center md:hidden">
+                <LightSwitch />
+                <p onClick={toggleDark} className="ml-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>
             </div>
-            
+            <footer className="hidden md:block">
+                <Footer />
+            </footer>
         </header>
     )
 }

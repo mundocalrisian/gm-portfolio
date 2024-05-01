@@ -9,7 +9,7 @@ export default function Navbar () {
     ]
 
 return (
-
+<nav>
     <ul className="flex justify-end">
         {navOptions.map(([url, title]) => {
             return (
@@ -25,6 +25,7 @@ return (
             )
         })}
     </ul>
+</nav>
 )
 
 }
