@@ -8,8 +8,6 @@ import reactLogo from "../assets/tech-stack-logos/react.svg"
 import postgreSqlLogo from "../assets/tech-stack-logos/postgresql.svg"
 import vsCodeLogo from "../assets/tech-stack-logos/vs-code.svg"
 import tailwindLogo from "../assets/tech-stack-logos/tailwindcss.svg"
-import expressLogo from "../assets/tech-stack-logos/expressjs-icon.svg"
-
 
 export default function About () {
 
@@ -39,7 +37,7 @@ export default function About () {
                 {techStack.map((tech) => {
                     return (
                         <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
-                            <img src={tech} alt={`${tech} logo`} width="50" className="ml-1 mr-1 mt-2 lg:mt-0"/>
+                            <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
                         </li>
 
                     )
