@@ -36,7 +36,7 @@ export default function About () {
                 <p>If you'd like to know more, please feel free to reach out and contact me.</p>
             </article>
             <div className="flex flex-col lg:mt-8 lg:flex-row ">
-                <ul className="mt-8 flex justify-around flex-wrap items-center lg:grow">
+                <ul className="mt-8 lg:mb-3 flex justify-around flex-wrap items-center lg:grow">
                     {techStack.map((tech) => {
                         return (
                             <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
@@ -45,7 +45,7 @@ export default function About () {
                         )
                     })}
                 </ul>
-                <ul className="mt-4 mb-8 flex justify-around flex-wrap items-center lg:grow">
+                <ul className="mt-4 mb-8 lg:mb-0 flex justify-around flex-wrap items-center lg:grow">
                     {techStack2.map((tech) => {
                         return (
                             <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
