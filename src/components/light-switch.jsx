@@ -4,7 +4,7 @@ import { useContext, useId } from 'react'
 
 export default function LightSwitch () {
 
-    const formID = useId()
+    const switchID = useId()
     const {dark, setDark} = useContext(DarkContext)
     
     const toggleDark = () => {
@@ -17,20 +17,18 @@ export default function LightSwitch () {
 
     return (
         <>
-            <label className="border-2 rounded-lg border-zinc-800/20 dark:border-orange-50/50 p-2 hover:cursor-pointer w-[35px] md:w-[50px]" htmlFor={formID}>
+            <label className="border-2 rounded-lg border-zinc-800/20 dark:border-orange-50/50 p-2 hover:cursor-pointer w-[35px] md:w-[50px]" htmlFor={switchID}>
                     <img src={bulb} alt="bulb icon toggle" className={dark !=="true" ? 'filter-zinc': 'filter-orange-50'}/>
             </label>
             <input 
                 type="checkbox" 
                 className=""
-                name={formID}
-                id={formID}
+                name={switchID}
+                id={switchID}
                 onClick={toggleDark} 
                 defaultChecked={true}
                 hidden
             />
-            {/* <p onClick={toggleDark} className="ml-4 hidden md:block mb-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p> */}
         </>
     )
-
 }

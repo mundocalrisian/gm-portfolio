@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from './navbar';
 import Header from './header';
@@ -5,8 +6,6 @@ import About from './about';
 import Projects from './projects';
 import Gallery from './gallery';
 import Footer from "./footer";
-import { useEffect } from "react";
-
 
 function App() {
 

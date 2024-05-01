@@ -8,8 +8,6 @@ import reactLogo from "../assets/tech-stack-logos/react.svg"
 import postgreSqlLogo from "../assets/tech-stack-logos/postgresql.svg"
 import vsCodeLogo from "../assets/tech-stack-logos/vs-code.svg"
 import tailwindLogo from "../assets/tech-stack-logos/tailwindcss.svg"
-import expressLogo from "../assets/tech-stack-logos/expressjs-icon.svg"
-
 
 export default function About () {
 
