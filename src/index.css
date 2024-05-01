@@ -10,7 +10,9 @@
   font-variation-settings:
     "slnt" 0;
 }
+
 body{
+  /* min-width: 375px; */
   @apply bg-zinc-50 text-black dark:bg-zinc-800 dark:text-orange-50
 }
 
