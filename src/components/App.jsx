@@ -16,10 +16,13 @@ function App() {
 
   return (
     <>
-      <main className="max-w-screen-xl m-0 p-8 text-center min-w-[375px]">
+      <nav className="fixed top-0 right-0 flex w-full bg-zinc-50 dark:bg-zinc-800 border-b border-orange-500 z-50">
+        <div className="grow"></div>
         <Navbar />
-        <section className="md:flex md:justify-between">
+      </nav>
+      <main className="max-w-screen-xl m-0 pr-8 pl-8 text-center min-w-[375px]">
         <Header/>
+        <section className="md:pt-20 md:flex md:justify-end ">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />}/>

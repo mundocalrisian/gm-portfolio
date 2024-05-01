@@ -22,7 +22,7 @@ export default function LeedsYouAround () {
 
     return (
         <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
-            <h2 className="text-xl font-medium pb-4 dark:text-white">LeedsYouAround</h2>
+            <h2 className=" lg:sticky top:24 z-20 text-xl font-medium pb-4 dark:text-white">LeedsYouAround</h2>
             <p>My time at Northcoders culminated with this team project which spanned just over 2 weeks. LeedsYouAround is a mobile landmark based scavenger hunt app set in the Leeds area. It requires the player to reach the sights using the integrated map and snap a picture which will validate and tick them off. It was developed using React Native and Expo along with Firebase and GoogleVision. Project management was handled using Jira, which our team name was derived from.
             </p>
             <div className="flex justify-center ">

@@ -16,13 +16,13 @@ export default function About () {
         reactLogo, 
         htmlLogo, 
         cssLogo, 
-        nodeLogo, 
+        jestLogo,
     ]
     const techStack2 = [
         vsCodeLogo,
         npmLogo, 
+        nodeLogo,
         tailwindLogo, 
-        jestLogo,
         postgreSqlLogo, 
     ]
     
