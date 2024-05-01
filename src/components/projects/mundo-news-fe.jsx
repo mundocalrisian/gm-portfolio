@@ -24,14 +24,14 @@ export default function MundoNewsFe () {
             <p>A CRUD (create, read, update, delete) web application built using React.js. The project was planned and completed within 5 days as part of the frontend review during my Northcoders Bootcamp.
             </p>
             <div className="flex justify-center">
-                <a href="https://mundo-news.netlify.app/" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2 border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white w-2/5 md:w-1/3 lg:w-1/4">View Site</a>
-                <a href="https://github.com/mundocalrisian/fe-mundo-news" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
+                <a href="https://mundo-news.netlify.app/" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 w-2/5 md:w-1/3 lg:w-1/4">View Site</a>
+                <a href="https://github.com/mundocalrisian/fe-mundo-news" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
             <ul className="flex flex-wrap justify-around mt-4">
                 {
                     techStack.map(([tech, url]) => {
                         return (
-                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
                             <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
                             <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
                         </li>
