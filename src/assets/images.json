@@ -1,0 +1,1030 @@
+{
+    "resources": [
+        {
+            "asset_id": "e93ecf7503057d54a694f73c2f13b273",
+            "public_id": "vk4jpexo1z0i0knrmuvh",
+            "format": "jpg",
+            "version": 1715162112,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-08T09:55:12Z",
+            "bytes": 876912,
+            "width": 4032,
+            "height": 3024,
+            "folder": "",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715162112/vk4jpexo1z0i0knrmuvh.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715162112/vk4jpexo1z0i0knrmuvh.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:33:39+00:00",
+                "updated_at": "2024-05-08T17:33:39+00:00"
+            }
+        },
+        {
+            "asset_id": "56cd976052d6b0cda4f06f7c34722a6c",
+            "public_id": "samples/Old Sample Images/cld-sample-5",
+            "format": "jpg",
+            "version": 1715088134,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:14Z",
+            "bytes": 379132,
+            "width": 1870,
+            "height": 1250,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088134/samples/Old%20Sample%20Images/cld-sample-5.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088134/samples/Old%20Sample%20Images/cld-sample-5.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:04+00:00",
+                "updated_at": "2024-05-08T17:34:04+00:00"
+            }
+        },
+        {
+            "asset_id": "76e7a085f68d0515ff8e15883e6da58d",
+            "public_id": "samples/Old Sample Images/cld-sample-4",
+            "format": "jpg",
+            "version": 1715088134,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:14Z",
+            "bytes": 818600,
+            "width": 1870,
+            "height": 1250,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088134/samples/Old%20Sample%20Images/cld-sample-4.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088134/samples/Old%20Sample%20Images/cld-sample-4.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:04+00:00",
+                "updated_at": "2024-05-08T17:34:04+00:00"
+            }
+        },
+        {
+            "asset_id": "bdf8e0b48ca1282b2eaa56600a2af9a7",
+            "public_id": "samples/Old Sample Images/cld-sample-3",
+            "format": "jpg",
+            "version": 1715088133,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:13Z",
+            "bytes": 905834,
+            "width": 1870,
+            "height": 1250,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088133/samples/Old%20Sample%20Images/cld-sample-3.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088133/samples/Old%20Sample%20Images/cld-sample-3.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:04+00:00",
+                "updated_at": "2024-05-08T17:34:04+00:00"
+            }
+        },
+        {
+            "asset_id": "4b587bf6024465ad77c34eaa9ebee8b1",
+            "public_id": "samples/Old Sample Images/cld-sample-2",
+            "format": "jpg",
+            "version": 1715088132,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:12Z",
+            "bytes": 592235,
+            "width": 1870,
+            "height": 1250,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088132/samples/Old%20Sample%20Images/cld-sample-2.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088132/samples/Old%20Sample%20Images/cld-sample-2.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:05+00:00",
+                "updated_at": "2024-05-08T17:34:05+00:00"
+            }
+        },
+        {
+            "asset_id": "661e514480a8bc4b62335c1282f61d27",
+            "public_id": "samples/Old Sample Images/cld-sample",
+            "format": "jpg",
+            "version": 1715088132,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:12Z",
+            "bytes": 476846,
+            "width": 1870,
+            "height": 1250,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088132/samples/Old%20Sample%20Images/cld-sample.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088132/samples/Old%20Sample%20Images/cld-sample.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:04+00:00",
+                "updated_at": "2024-05-08T17:34:04+00:00"
+            }
+        },
+        {
+            "asset_id": "7e108d3830267d2ef28bef6355d4a90f",
+            "public_id": "samples/Old Sample Images/logo",
+            "format": "png",
+            "version": 1715088131,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:11Z",
+            "bytes": 10897,
+            "width": 480,
+            "height": 314,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088131/samples/Old%20Sample%20Images/logo.png",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088131/samples/Old%20Sample%20Images/logo.png",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:14+00:00",
+                "updated_at": "2024-05-08T17:32:14+00:00"
+            }
+        },
+        {
+            "asset_id": "c7ec2487caf2508dae13498731f40c93",
+            "public_id": "samples/Old Sample Images/upscale-face-1",
+            "format": "jpg",
+            "version": 1715088131,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:11Z",
+            "bytes": 18110,
+            "width": 233,
+            "height": 233,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088131/samples/Old%20Sample%20Images/upscale-face-1.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088131/samples/Old%20Sample%20Images/upscale-face-1.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:14+00:00",
+                "updated_at": "2024-05-08T17:32:14+00:00"
+            }
+        },
+        {
+            "asset_id": "f5fe2942a6b4a450febdd5fc9d92729d",
+            "public_id": "samples/Old Sample Images/woman-on-a-football-field",
+            "format": "jpg",
+            "version": 1715088130,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:10Z",
+            "bytes": 416598,
+            "width": 1200,
+            "height": 1350,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088130/samples/Old%20Sample%20Images/woman-on-a-football-field.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088130/samples/Old%20Sample%20Images/woman-on-a-football-field.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:15+00:00",
+                "updated_at": "2024-05-08T17:32:15+00:00"
+            }
+        },
+        {
+            "asset_id": "10414363fe25328b778b304b84d6e34e",
+            "public_id": "samples/Old Sample Images/dessert-on-a-plate",
+            "format": "jpg",
+            "version": 1715088130,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:10Z",
+            "bytes": 348717,
+            "width": 1200,
+            "height": 1200,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088130/samples/Old%20Sample%20Images/dessert-on-a-plate.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088130/samples/Old%20Sample%20Images/dessert-on-a-plate.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:15+00:00",
+                "updated_at": "2024-05-08T17:32:15+00:00"
+            }
+        },
+        {
+            "asset_id": "651093641e9ff828b5a17e2d36f88bae",
+            "public_id": "samples/Old Sample Images/cup-on-a-table",
+            "format": "jpg",
+            "version": 1715088129,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:09Z",
+            "bytes": 134300,
+            "width": 2246,
+            "height": 1500,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088129/samples/Old%20Sample%20Images/cup-on-a-table.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088129/samples/Old%20Sample%20Images/cup-on-a-table.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "4e642c21b19db85fb5be34361d9ca629",
+            "public_id": "samples/Old Sample Images/coffee",
+            "format": "jpg",
+            "version": 1715088129,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:09Z",
+            "bytes": 165287,
+            "width": 1920,
+            "height": 1280,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088129/samples/Old%20Sample%20Images/coffee.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088129/samples/Old%20Sample%20Images/coffee.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "9d58c4730776b5b6b18aab2e30389a95",
+            "public_id": "samples/Old Sample Images/chair",
+            "format": "png",
+            "version": 1715088128,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:08Z",
+            "bytes": 130488,
+            "width": 800,
+            "height": 600,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/chair.png",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/chair.png",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "f86cdc824a0e60717898848bd592e9de",
+            "public_id": "samples/Old Sample Images/chair-and-coffee-table",
+            "format": "jpg",
+            "version": 1715088128,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:08Z",
+            "bytes": 64504,
+            "width": 1001,
+            "height": 1500,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/chair-and-coffee-table.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/chair-and-coffee-table.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "4b732bef52a290f7713e8749a2dbabd6",
+            "public_id": "samples/Old Sample Images/man-portrait",
+            "format": "jpg",
+            "version": 1715088128,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:08Z",
+            "bytes": 505607,
+            "width": 1333,
+            "height": 2000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/man-portrait.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088128/samples/Old%20Sample%20Images/man-portrait.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "e48b246f340bf3a33df1b1bac4146b7e",
+            "public_id": "samples/Old Sample Images/man-on-a-street",
+            "format": "jpg",
+            "version": 1715088127,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:07Z",
+            "bytes": 564013,
+            "width": 1340,
+            "height": 1340,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088127/samples/Old%20Sample%20Images/man-on-a-street.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088127/samples/Old%20Sample%20Images/man-on-a-street.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "364bf28d708c4de179a6d3c64cbc1054",
+            "public_id": "samples/Old Sample Images/man-on-a-escalator",
+            "format": "jpg",
+            "version": 1715088126,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:06Z",
+            "bytes": 563708,
+            "width": 1340,
+            "height": 1340,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088126/samples/Old%20Sample%20Images/man-on-a-escalator.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088126/samples/Old%20Sample%20Images/man-on-a-escalator.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "5424dda139c5e88a32453f0fde514279",
+            "public_id": "samples/Old Sample Images/outdoor-woman",
+            "format": "jpg",
+            "version": 1715088126,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:06Z",
+            "bytes": 93473,
+            "width": 640,
+            "height": 963,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088126/samples/Old%20Sample%20Images/outdoor-woman.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088126/samples/Old%20Sample%20Images/outdoor-woman.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "d33209afa4167dc283a4b5bcb989ef32",
+            "public_id": "samples/Old Sample Images/look-up",
+            "format": "jpg",
+            "version": 1715088125,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:05Z",
+            "bytes": 414964,
+            "width": 900,
+            "height": 900,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088125/samples/Old%20Sample%20Images/look-up.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088125/samples/Old%20Sample%20Images/look-up.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "5b81f989822185609aa1c6de9e1dfbbb",
+            "public_id": "samples/Old Sample Images/breakfast",
+            "format": "jpg",
+            "version": 1715088125,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:05Z",
+            "bytes": 3024938,
+            "width": 2447,
+            "height": 2196,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088125/samples/Old%20Sample%20Images/breakfast.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088125/samples/Old%20Sample%20Images/breakfast.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:46+00:00",
+                "updated_at": "2024-05-08T17:32:46+00:00"
+            }
+        },
+        {
+            "asset_id": "63b4bb7f6be0a88ff821094ac2cc0737",
+            "public_id": "samples/Old Sample Images/smile",
+            "format": "jpg",
+            "version": 1715088124,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:04Z",
+            "bytes": 657749,
+            "width": 1552,
+            "height": 1000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088124/samples/Old%20Sample%20Images/smile.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088124/samples/Old%20Sample%20Images/smile.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "bfc34626eab960da66a6b10a6af73081",
+            "public_id": "samples/Old Sample Images/balloons",
+            "format": "jpg",
+            "version": 1715088124,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:04Z",
+            "bytes": 117237,
+            "width": 1000,
+            "height": 667,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088124/samples/Old%20Sample%20Images/balloons.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088124/samples/Old%20Sample%20Images/balloons.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:46+00:00",
+                "updated_at": "2024-05-08T17:32:46+00:00"
+            }
+        },
+        {
+            "asset_id": "e6498cab038eee11f8ecba801c14ae3a",
+            "public_id": "samples/Old Sample Images/shoe",
+            "format": "jpg",
+            "version": 1715088123,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:03Z",
+            "bytes": 72888,
+            "width": 1000,
+            "height": 1140,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088123/samples/Old%20Sample%20Images/shoe.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088123/samples/Old%20Sample%20Images/shoe.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "852a453cd24eccc0bc5f20db6c55479f",
+            "public_id": "samples/Old Sample Images/two-ladies",
+            "format": "jpg",
+            "version": 1715088122,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:22:02Z",
+            "bytes": 211712,
+            "width": 1500,
+            "height": 1200,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088122/samples/Old%20Sample%20Images/two-ladies.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088122/samples/Old%20Sample%20Images/two-ladies.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "d032546c9d40b72af6ca414c69ebab2e",
+            "public_id": "samples/Old Sample Images/landscape-panorama",
+            "format": "jpg",
+            "version": 1715088112,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:52Z",
+            "bytes": 7858062,
+            "width": 10906,
+            "height": 2349,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088112/samples/Old%20Sample%20Images/landscape-panorama.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088112/samples/Old%20Sample%20Images/landscape-panorama.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:17+00:00",
+                "updated_at": "2024-05-08T17:35:17+00:00"
+            }
+        },
+        {
+            "asset_id": "aa3e4e4deb33147faef12d1c6ae8164c",
+            "public_id": "samples/Old Sample Images/kitten-playing",
+            "format": "gif",
+            "version": 1715088111,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:51Z",
+            "bytes": 6620002,
+            "width": 320,
+            "height": 180,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088111/samples/Old%20Sample%20Images/kitten-playing.gif",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088111/samples/Old%20Sample%20Images/kitten-playing.gif",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:27+00:00",
+                "updated_at": "2024-05-08T17:34:27+00:00"
+            }
+        },
+        {
+            "asset_id": "7d97a34cd852f685601f7c769ccbdd1c",
+            "public_id": "samples/Old Sample Images/nature-mountains",
+            "format": "jpg",
+            "version": 1715088110,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:50Z",
+            "bytes": 3171453,
+            "width": 3000,
+            "height": 2000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088110/samples/Old%20Sample%20Images/nature-mountains.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088110/samples/Old%20Sample%20Images/nature-mountains.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:15+00:00",
+                "updated_at": "2024-05-08T17:35:15+00:00"
+            }
+        },
+        {
+            "asset_id": "72727ed8ac3fcc736889617ba1e488da",
+            "public_id": "samples/Old Sample Images/cloudinary-group",
+            "format": "jpg",
+            "version": 1715088109,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:49Z",
+            "bytes": 2856169,
+            "width": 3000,
+            "height": 1526,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088109/samples/Old%20Sample%20Images/cloudinary-group.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088109/samples/Old%20Sample%20Images/cloudinary-group.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "058e853848b1711a4bf0d5a91c908238",
+            "public_id": "samples/Old Sample Images/spices",
+            "format": "jpg",
+            "version": 1715088108,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:48Z",
+            "bytes": 2129950,
+            "width": 2000,
+            "height": 2000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088108/samples/Old%20Sample%20Images/spices.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088108/samples/Old%20Sample%20Images/spices.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:03+00:00",
+                "updated_at": "2024-05-08T17:35:03+00:00"
+            }
+        },
+        {
+            "asset_id": "b0a4f873e9e90c75e308764954cca330",
+            "public_id": "samples/Old Sample Images/imagecon-group",
+            "format": "jpg",
+            "version": 1715088108,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:48Z",
+            "bytes": 1487070,
+            "width": 2800,
+            "height": 1867,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088108/samples/Old%20Sample%20Images/imagecon-group.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088108/samples/Old%20Sample%20Images/imagecon-group.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "6652b2fb3a5c0dd10f6b36b32c9c707d",
+            "public_id": "samples/Old Sample Images/accessories-bag",
+            "format": "jpg",
+            "version": 1715088107,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:47Z",
+            "bytes": 1459256,
+            "width": 3000,
+            "height": 2000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088107/samples/Old%20Sample%20Images/accessories-bag.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088107/samples/Old%20Sample%20Images/accessories-bag.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:49+00:00",
+                "updated_at": "2024-05-08T17:34:49+00:00"
+            }
+        },
+        {
+            "asset_id": "343c807e15ac7663da1a27a68e0e7a9c",
+            "public_id": "samples/Old Sample Images/leather-bag-gray",
+            "format": "jpg",
+            "version": 1715088107,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:47Z",
+            "bytes": 1323582,
+            "width": 2385,
+            "height": 1590,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088107/samples/Old%20Sample%20Images/leather-bag-gray.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088107/samples/Old%20Sample%20Images/leather-bag-gray.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:48+00:00",
+                "updated_at": "2024-05-08T17:34:48+00:00"
+            }
+        },
+        {
+            "asset_id": "d093211bb35b55b2e3b77b3cbd45e3fb",
+            "public_id": "samples/Old Sample Images/car-interior-design",
+            "format": "jpg",
+            "version": 1715088106,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:46Z",
+            "bytes": 1254103,
+            "width": 2000,
+            "height": 2667,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088106/samples/Old%20Sample%20Images/car-interior-design.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088106/samples/Old%20Sample%20Images/car-interior-design.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:48+00:00",
+                "updated_at": "2024-05-08T17:34:48+00:00"
+            }
+        },
+        {
+            "asset_id": "461fdeb739493e02f2e833b8fc6e5177",
+            "public_id": "samples/Old Sample Images/beach-boat",
+            "format": "jpg",
+            "version": 1715088105,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:45Z",
+            "bytes": 1235823,
+            "width": 2600,
+            "height": 1950,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088105/samples/Old%20Sample%20Images/beach-boat.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088105/samples/Old%20Sample%20Images/beach-boat.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:15+00:00",
+                "updated_at": "2024-05-08T17:35:15+00:00"
+            }
+        },
+        {
+            "asset_id": "773005fd5b3e4806aabf594bacf7968b",
+            "public_id": "samples/Old Sample Images/bicycle",
+            "format": "jpg",
+            "version": 1715088105,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:45Z",
+            "bytes": 1130015,
+            "width": 2889,
+            "height": 1926,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088105/samples/Old%20Sample%20Images/bicycle.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088105/samples/Old%20Sample%20Images/bicycle.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:27+00:00",
+                "updated_at": "2024-05-08T17:35:27+00:00"
+            }
+        },
+        {
+            "asset_id": "76730a5433be45a884946a70d2b7387d",
+            "public_id": "samples/Old Sample Images/architecture-signs",
+            "format": "jpg",
+            "version": 1715088104,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:44Z",
+            "bytes": 945255,
+            "width": 3000,
+            "height": 2000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088104/samples/Old%20Sample%20Images/architecture-signs.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088104/samples/Old%20Sample%20Images/architecture-signs.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:15+00:00",
+                "updated_at": "2024-05-08T17:35:15+00:00"
+            }
+        },
+        {
+            "asset_id": "29e8327818a6ffd041263e82fd3735c5",
+            "public_id": "samples/Old Sample Images/three-dogs",
+            "format": "jpg",
+            "version": 1715088104,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:44Z",
+            "bytes": 854929,
+            "width": 2700,
+            "height": 1800,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088104/samples/Old%20Sample%20Images/three-dogs.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088104/samples/Old%20Sample%20Images/three-dogs.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:26+00:00",
+                "updated_at": "2024-05-08T17:34:26+00:00"
+            }
+        },
+        {
+            "asset_id": "fa612445911289861f880d0661ca219d",
+            "public_id": "samples/Old Sample Images/jazz",
+            "format": "jpg",
+            "version": 1715088103,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:43Z",
+            "bytes": 695548,
+            "width": 3000,
+            "height": 1993,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088103/samples/Old%20Sample%20Images/jazz.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088103/samples/Old%20Sample%20Images/jazz.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:27+00:00",
+                "updated_at": "2024-05-08T17:35:27+00:00"
+            }
+        },
+        {
+            "asset_id": "3cedda5c7bd053e8e2481b82c6ff3d7b",
+            "public_id": "samples/Old Sample Images/boy-snow-hoodie",
+            "format": "jpg",
+            "version": 1715088103,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:43Z",
+            "bytes": 581238,
+            "width": 1777,
+            "height": 1332,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088103/samples/Old%20Sample%20Images/boy-snow-hoodie.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088103/samples/Old%20Sample%20Images/boy-snow-hoodie.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:27+00:00",
+                "updated_at": "2024-05-08T17:35:27+00:00"
+            }
+        },
+        {
+            "asset_id": "4e0ea8b791625ff49bac74966bed94db",
+            "public_id": "samples/Old Sample Images/bike",
+            "format": "jpg",
+            "version": 1715088102,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:42Z",
+            "bytes": 475687,
+            "width": 2000,
+            "height": 1333,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088102/samples/Old%20Sample%20Images/bike.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088102/samples/Old%20Sample%20Images/bike.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "5d96b032377c2fc66f3404057123b5eb",
+            "public_id": "samples/Old Sample Images/shoes",
+            "format": "png",
+            "version": 1715088101,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:41Z",
+            "bytes": 393265,
+            "width": 587,
+            "height": 507,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088101/samples/Old%20Sample%20Images/shoes.png",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088101/samples/Old%20Sample%20Images/shoes.png",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:48+00:00",
+                "updated_at": "2024-05-08T17:34:48+00:00"
+            }
+        },
+        {
+            "asset_id": "c4c3b2f7f58fd8bbf00b15b276d86e0e",
+            "public_id": "samples/Old Sample Images/girl-urban-view",
+            "format": "jpg",
+            "version": 1715088101,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:41Z",
+            "bytes": 372778,
+            "width": 2048,
+            "height": 1252,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088101/samples/Old%20Sample%20Images/girl-urban-view.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088101/samples/Old%20Sample%20Images/girl-urban-view.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:15+00:00",
+                "updated_at": "2024-05-08T17:35:15+00:00"
+            }
+        },
+        {
+            "asset_id": "63238b00249db749776b6c9a2a9e80e5",
+            "public_id": "samples/Old Sample Images/smiling-man",
+            "format": "jpg",
+            "version": 1715088100,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:40Z",
+            "bytes": 338794,
+            "width": 849,
+            "height": 565,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088100/samples/Old%20Sample%20Images/smiling-man.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088100/samples/Old%20Sample%20Images/smiling-man.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:28+00:00",
+                "updated_at": "2024-05-08T17:35:28+00:00"
+            }
+        },
+        {
+            "asset_id": "c9c5def4f653a78019be76340d728688",
+            "public_id": "samples/Old Sample Images/sheep",
+            "format": "jpg",
+            "version": 1715088100,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:40Z",
+            "bytes": 269304,
+            "width": 1600,
+            "height": 1067,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088100/samples/Old%20Sample%20Images/sheep.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088100/samples/Old%20Sample%20Images/sheep.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "420e27da68581cfacfe2c0a1727e080d",
+            "public_id": "samples/Old Sample Images/pot-mussels",
+            "format": "jpg",
+            "version": 1715088099,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:39Z",
+            "bytes": 191852,
+            "width": 1220,
+            "height": 818,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088099/samples/Old%20Sample%20Images/pot-mussels.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088099/samples/Old%20Sample%20Images/pot-mussels.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:03+00:00",
+                "updated_at": "2024-05-08T17:35:03+00:00"
+            }
+        },
+        {
+            "asset_id": "554db6aa3e0570ed9e4dfe2cbade791c",
+            "public_id": "samples/Old Sample Images/fish-vegetables",
+            "format": "jpg",
+            "version": 1715088099,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:39Z",
+            "bytes": 169013,
+            "width": 1220,
+            "height": 813,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088099/samples/Old%20Sample%20Images/fish-vegetables.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088099/samples/Old%20Sample%20Images/fish-vegetables.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:03+00:00",
+                "updated_at": "2024-05-08T17:35:03+00:00"
+            }
+        },
+        {
+            "asset_id": "c0bc3c2b5d8b854483bfe11a83dae8e2",
+            "public_id": "samples/Old Sample Images/reindeer",
+            "format": "jpg",
+            "version": 1715088098,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:38Z",
+            "bytes": 161150,
+            "width": 1220,
+            "height": 813,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/reindeer.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/reindeer.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:26+00:00",
+                "updated_at": "2024-05-08T17:34:26+00:00"
+            }
+        },
+        {
+            "asset_id": "462a2a2dbc4cdfaeba61988e7e181512",
+            "public_id": "samples/Old Sample Images/kitchen-bar",
+            "format": "jpg",
+            "version": 1715088098,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:38Z",
+            "bytes": 154151,
+            "width": 1220,
+            "height": 813,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/kitchen-bar.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/kitchen-bar.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:27+00:00",
+                "updated_at": "2024-05-08T17:35:27+00:00"
+            }
+        },
+        {
+            "asset_id": "19f021093915fed960c6c0e706bee19b",
+            "public_id": "samples/Old Sample Images/dessert",
+            "format": "jpg",
+            "version": 1715088098,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:38Z",
+            "bytes": 125888,
+            "width": 1220,
+            "height": 813,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/dessert.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088098/samples/Old%20Sample%20Images/dessert.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:35:03+00:00",
+                "updated_at": "2024-05-08T17:35:03+00:00"
+            }
+        },
+        {
+            "asset_id": "eb6b5b75663e20ac2a0f96d1b679c80a",
+            "public_id": "samples/Old Sample Images/cat",
+            "format": "jpg",
+            "version": 1715088097,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:37Z",
+            "bytes": 92690,
+            "width": 768,
+            "height": 1024,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088097/samples/Old%20Sample%20Images/cat.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088097/samples/Old%20Sample%20Images/cat.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:26+00:00",
+                "updated_at": "2024-05-08T17:34:26+00:00"
+            }
+        },
+        {
+            "asset_id": "cb6eac2d294d223f5834c2af0ce7de9a",
+            "public_id": "samples/Old Sample Images/analog-classic",
+            "format": "jpg",
+            "version": 1715088097,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:37Z",
+            "bytes": 72558,
+            "width": 1280,
+            "height": 853,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088097/samples/Old%20Sample%20Images/analog-classic.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088097/samples/Old%20Sample%20Images/analog-classic.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:48+00:00",
+                "updated_at": "2024-05-08T17:34:48+00:00"
+            }
+        },
+        {
+            "asset_id": "144facbd596bb4d1e36cfcdd98f0c6ee",
+            "public_id": "samples/Old Sample Images/cloudinary-logo-vector",
+            "format": "svg",
+            "version": 1715088095,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:35Z",
+            "bytes": 5961,
+            "width": 1000,
+            "height": 320,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088095/samples/Old%20Sample%20Images/cloudinary-logo-vector.svg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088095/samples/Old%20Sample%20Images/cloudinary-logo-vector.svg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "50111f666980bd18002d7463eac911d4",
+            "public_id": "samples/Old Sample Images/cloudinary-icon",
+            "format": "png",
+            "version": 1715088095,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:35Z",
+            "bytes": 57334,
+            "width": 1000,
+            "height": 1000,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088095/samples/Old%20Sample%20Images/cloudinary-icon.png",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088095/samples/Old%20Sample%20Images/cloudinary-icon.png",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:32:45+00:00",
+                "updated_at": "2024-05-08T17:32:45+00:00"
+            }
+        },
+        {
+            "asset_id": "bf70f21ff42cb397916984480101cf5f",
+            "public_id": "samples/Old Sample Images/sample",
+            "format": "jpg",
+            "version": 1715088094,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-05-07T13:21:34Z",
+            "bytes": 120253,
+            "width": 864,
+            "height": 576,
+            "folder": "samples/Old Sample Images",
+            "url": "http://res.cloudinary.com/dmwb68i4s/image/upload/v1715088094/samples/Old%20Sample%20Images/sample.jpg",
+            "secure_url": "https://res.cloudinary.com/dmwb68i4s/image/upload/v1715088094/samples/Old%20Sample%20Images/sample.jpg",
+            "last_updated": {
+                "public_id_updated_at": "2024-05-08T17:34:04+00:00",
+                "updated_at": "2024-05-08T17:34:04+00:00"
+            }
+        }
+    ]
+}
