@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react"
-// import { getAllImages } from "../utils/api"
 import imageData from "../assets/image-data.json"
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox"
 import "yet-another-react-lightbox/styles.css";
-import CloudImage from "../utils/api";
 import { shuffle } from "../utils/utils";
 
 
@@ -52,7 +50,6 @@ export default function Gallery () {
                     onClick={({index: current}) => setIndex(current)}
                 />
             </div>
-
             <Lightbox 
                 index={index}
                 slides={slides}

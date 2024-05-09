@@ -1,6 +1,6 @@
 import LightSwitch from './light-switch'
 import { DarkContext } from '../context/dark'
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 
 export default function Footer () {
 

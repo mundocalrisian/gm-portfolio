@@ -1,5 +1,5 @@
 import { DarkContext } from '../context/dark'
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import gitHub from '../assets/contact-logos/github.svg'
 import linkedIn from '../assets/contact-logos/linkedin.svg'
 import envelope from '../assets/contact-logos/envelope.svg'

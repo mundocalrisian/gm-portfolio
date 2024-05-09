@@ -11,7 +11,6 @@ function App() {
 
   useEffect (() => {
     document.documentElement.classList.toggle("dark");
-    // console.log(document.documentElement.classList, "----is dark? in App");
   }, [])
 
   return (
