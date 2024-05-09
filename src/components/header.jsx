@@ -1,5 +1,5 @@
 import { DarkContext } from '../context/dark'
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import gitHub from '../assets/contact-logos/github.svg'
 import linkedIn from '../assets/contact-logos/linkedin.svg'
 import envelope from '../assets/contact-logos/envelope.svg'
@@ -51,10 +51,7 @@ export default function Header () {
                     })}
                 </ul>
             </section>
-            <div className="ml-4 mb-4 w-5/6 flex flex-end items-center md:hidden">
-                <LightSwitch />
-                <p onClick={toggleDark} className="ml-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>
-            </div>
+            
             <footer className="hidden md:block">
                 <div className=" ml-4 mb-4 w-5/6 hidden md:flex md:flex-col md:justify-start md:items-between">
                     <LightSwitch />
