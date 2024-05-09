@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 // import { getAllImages } from "../utils/api"
-import imageData from "../assets/images.json"
+import imageData from "../assets/image-data.json"
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox"
 import "yet-another-react-lightbox/styles.css";
@@ -20,19 +20,20 @@ export default function Gallery () {
             }
             return images
         }, [])
-        // console.log(portfolioImages, "-----portfolioImages");
+
+        setImageList(portfolioImages)
         shuffle(portfolioImages)
         
         const slidesToSet = portfolioImages.map((image) => {
-                return (
-                    {src: image.url, width: image.width, height: image.height}
-                )
+            return (
+                {src: image.url, width: image.width, height: image.height}
+            )
         })
         setSlides(slidesToSet)
     }, [])
 
     return (
-        <section className="mb-8 md:w-3/5 lg:w-2/3  xl:w-[900px] pl-4  lg:pl-0 sm:mt-0 md:mt-4">
+        <section className="mb-8 md:w-3/5 lg:w-2/3  xl:w-[900px] 2xl:w-[1150px] pl-4  lg:pl-0 sm:mt-0 md:mt-4">
             <div className="p-4">
                 <PhotoAlbum 
                     layout="rows" 
