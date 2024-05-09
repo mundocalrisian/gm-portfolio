@@ -34,8 +34,10 @@ export default function Gallery () {
 
     return (
         <section className="mb-8 md:w-3/5 lg:w-2/3  xl:w-[900px] 2xl:w-[1150px] pl-4  lg:pl-0 sm:mt-0 md:mt-4">
-            <p className="text-xs">Images copyright © 2008-2024 Greg Munden.</p>
-            <p className="text-xs mb-4 md:mb-0">All rights reserved</p>
+            <div className="flex flex-col md:flex-row justify-center mb-4 md:mb-0">
+                <p className="text-xs">&nbsp;Images copyright © 2008-2024 Greg Munden.&nbsp;</p>
+                <p className="text-xs "> All rights reserved</p>
+            </div>
             <div className="md:p-4">
                 <PhotoAlbum 
                     layout="rows" 
