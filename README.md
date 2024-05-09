@@ -14,3 +14,5 @@ Portfolio for myself
 -   Inter typeface - https://rsms.me/inter/
 -   Simple Icons - https://github.com/simple-icons/simple-icons/
 -   Font Awesome - https://github.com/FortAwesome/Font-Awesome
+-   React Photo Album - https://react-photo-album.com/
+-   Yet Another React Lightbox - https://yet-another-react-lightbox.com/

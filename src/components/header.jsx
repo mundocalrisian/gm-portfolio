@@ -56,7 +56,7 @@ export default function Header () {
                 <p onClick={toggleDark} className="ml-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>
             </div>
             <footer className="hidden md:block">
-                <div className="ml-4 mb-4 w-5/6 hidden md:flex md:flex-col md:justify-start md:items-between">
+                <div className=" ml-4 mb-4 w-5/6 hidden md:flex md:flex-col md:justify-start md:items-between">
                     <LightSwitch />
                 </div>
                 <p onClick={toggleDark} className="ml-4 hidden md:block mb-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>

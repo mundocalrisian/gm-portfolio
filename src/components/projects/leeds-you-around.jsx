@@ -26,14 +26,14 @@ export default function LeedsYouAround () {
             <p>My time at Northcoders culminated with this team project which spanned just over 2 weeks. LeedsYouAround is a mobile landmark based scavenger hunt app set in the Leeds area. It requires the player to reach the sights using the integrated map and snap a picture which will validate and tick them off. It was developed using React Native and Expo along with Firebase and GoogleVision. Project management was handled using Jira, which our team name was derived from.
             </p>
             <div className="flex justify-center ">
-                <a href="https://northcoders.com/project-phase/leedsyouaround" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2  border-2 rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white w-2/5 md:w-1/3 lg:w-1/4">Project Page</a>
-                <a href="https://github.com/EpicIssues/Leeds-You-Around" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 content-center border-2  rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
+                <a href="https://northcoders.com/project-phase/leedsyouaround" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2  border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 w-2/5 md:w-1/3 lg:w-1/4">Project Page</a>
+                <a href="https://github.com/EpicIssues/Leeds-You-Around" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 content-center border  rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
             <ul className="flex flex-wrap justify-around mt-4">
                 {
                     techStack.map(([tech, url]) => {
                         return (
-                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border-2 rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
                             <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
                             <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
                         </li>
