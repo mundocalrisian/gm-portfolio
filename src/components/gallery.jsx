@@ -34,11 +34,17 @@ export default function Gallery () {
 
     return (
         <section className="mb-8 md:w-3/5 lg:w-2/3  xl:w-[900px] 2xl:w-[1150px] pl-4  lg:pl-0 sm:mt-0 md:mt-4">
-            <div className="p-4">
+            <div className="md:p-4">
                 <PhotoAlbum 
                     layout="rows" 
                     photos={slides}
-                    targetRowHeight={200}
+                    // targetRowHeight={200}
+                    targetRowHeight={(containerWidth) => {
+                        if (containerWidth < 400) return 100
+                        if (containerWidth < 600) return 150
+                        if (containerWidth < 920) return 200
+                        return 250
+                    }}
                     onClick={({index: current}) => setIndex(current)}
                 />
             </div>
