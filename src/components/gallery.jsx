@@ -42,10 +42,10 @@ export default function Gallery () {
                     photos={slides}
                     // targetRowHeight={200}
                     targetRowHeight={(containerWidth) => {
-                        if (containerWidth < 400) return 100
+                        if (containerWidth < 380) return 100
                         if (containerWidth < 600) return 150
-                        if (containerWidth < 920) return 200
-                        return 250
+                        if (containerWidth < 920) return 225
+                        return 275
                     }}
                     onClick={({index: current}) => setIndex(current)}
                 />
