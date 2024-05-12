@@ -8,6 +8,7 @@ import reactLogo from "../assets/tech-stack-logos/react.svg"
 import postgreSqlLogo from "../assets/tech-stack-logos/postgresql.svg"
 import vsCodeLogo from "../assets/tech-stack-logos/vs-code.svg"
 import tailwindLogo from "../assets/tech-stack-logos/tailwindcss.svg"
+import gitLogo from "../assets/tech-stack-logos/git.svg"
 
 export default function About () {
 
@@ -16,13 +17,15 @@ export default function About () {
         reactLogo, 
         htmlLogo, 
         cssLogo, 
-        jestLogo,
+        gitLogo,
+        
     ]
     const techStack2 = [
         vsCodeLogo,
-        npmLogo, 
-        nodeLogo,
+        // npmLogo, 
         tailwindLogo, 
+        nodeLogo,
+        jestLogo,
         postgreSqlLogo, 
     ]
     
