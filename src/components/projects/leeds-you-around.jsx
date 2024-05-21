@@ -47,6 +47,9 @@ export default function LeedsYouAround () {
                 <img src={lyaScreen3} alt="the camera view in the app" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
                 <img src={lyaScreen4}  alt="the completion screen" className="p-2 mb-2 border rounded-xl border-zinc-300 bg-white drop-shadow-md w-2/5 lg:w-1/5 lg:mb-0"/>
             </div>
+            {/* <div className="flex justify-center mt-8">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Lrk8orXr8o?si=Km6ZEXw69BzwQ5Ho" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div> */}
         </section>
 
     )
