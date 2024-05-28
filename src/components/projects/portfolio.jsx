@@ -24,9 +24,9 @@ export default function Portfolio () {
             <h2 className="text-xl font-medium pb-4 dark:text-white">gregmunden.dev</h2>
             <p>The very site that you're perusing now was a great opportunity for me to learn Taildwind CSS whilst trying out some new ideas and showcasing some of the skills I've learnt over the past few months.  
             </p>
-            {/* <div className="flex justify-center">
+            <div className="flex justify-center">
                 <a href="https://github.com/mundocalrisian/gm-portfolio" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
-            </div> */}
+            </div>
             <ul className="flex flex-wrap justify-around mt-4">
                 {
                     techStack.map(([tech, url]) => {
