@@ -15,7 +15,7 @@ export default function Footer () {
 
     return (
         <>
-            <div className="mb-4 flex items-center justify-center md:hidden">
+            <div className="mb-4 flex items-center justify-center md:hidden min-w-[375px]">
                 <LightSwitch />
                 <p onClick={toggleDark} className="ml-4 text-sm hover:cursor-pointer">Click  {dark === "true" ? "to see the light" : "for some darkness"}</p>
             </div>

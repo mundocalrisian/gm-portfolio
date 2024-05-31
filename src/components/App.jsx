@@ -6,6 +6,7 @@ import About from './about';
 import Projects from './projects';
 import Gallery from './gallery';
 import Footer from "./footer";
+import NotFound from "./not-found";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />}/>
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </section>
       </main>
