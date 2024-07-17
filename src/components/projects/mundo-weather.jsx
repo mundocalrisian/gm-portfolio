@@ -25,7 +25,7 @@ export default function MundoWeather () {
             </p>
             <div className="flex justify-center">
                 <a href="https://mundo-weather.netlify.app/" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 mr-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 w-2/5 md:w-1/3 lg:w-1/4">View Site</a>
-                <a href="https://github.com/mundocalrisian/fe-react-data-visualisation" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
+                <a href="https://github.com/mundocalrisian/mundo-weather" target="_blank" rel="noreferrer noopener" className="mt-4 mb-2 ml-2 p-2 border rounded-lg bg-orange-200/50 dark:bg-transparent border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 hover:text-white xs:w-1/2 s:w-2/5 md:w-1/3 lg:w-1/4">View Source </a>
             </div>
             <ul className="flex flex-wrap justify-around mt-4">
                 {
