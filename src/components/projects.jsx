@@ -2,7 +2,9 @@ import LeedsYouAround from "./projects/leeds-you-around";
 import MundoNewsBe from "./projects/mundo-news-be";
 import MundoNewsFe from "./projects/mundo-news-fe";
 import MundoWeather from "./projects/mundo-weather";
+import PokemonBattler from "./projects/pokemon-battler";
 import Portfolio from "./projects/portfolio";
+
 
 export default function Projects () {
 
@@ -14,6 +16,7 @@ export default function Projects () {
                 <MundoNewsFe />
                 <MundoNewsBe />
                 <MundoWeather />
+                <PokemonBattler />
             </div>
         </section>
     )
