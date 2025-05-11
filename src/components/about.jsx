@@ -43,7 +43,7 @@ export default function About () {
                     {techStack.map((tech) => {
                         return (
                             <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
-                                <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
+                                <img src={tech} alt={`${tech} logo`} width="48" className="mx-1 mt-2 lg:mt-0"/>
                             </li>
                         )
                     })}
@@ -52,7 +52,7 @@ export default function About () {
                     {techStack2.map((tech) => {
                         return (
                             <li key={tech} className="relative top-0 hover:-top-2 duration-200 ease-in-out">
-                                <img src={tech} alt={`${tech} logo`} width="48" className="ml-1 mr-1 mt-2 lg:mt-0"/>
+                                <img src={tech} alt={`${tech} logo`} width="48" className="mx-1 mt-2 lg:mt-0"/>
                             </li>
                         )
                     })}

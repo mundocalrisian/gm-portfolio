@@ -42,7 +42,7 @@ export default function Header () {
                 <ul className='flex justify-start items-center md:justify-start mt-4 mb-4 ml-2'>
                     {linkOptions.map(([title, icon, url]) => {
                         return (
-                            <li key={title} className='ml-2 mr-2 h-8'>
+                            <li key={title} className='mx-2 h-8'>
                                 <a href={url} target="_blank" rel="noreferrer noopener">
                                 <img src={icon} className="filter-orange opacity-80 hover:opacity-100" alt={`${title} link`} width="30" height="30"/>
                                 </a>
