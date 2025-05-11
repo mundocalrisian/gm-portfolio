@@ -39,7 +39,7 @@ export default function Header () {
                 <div className="ml-4">
                     <img src={meHeadshot} alt="a headshot of Greg" className="w-[150px] rounded-full "/>
                 </div>
-                <ul className='flex justify-start items-center md:justify-start mt-4 mb-4 ml-2'>
+                <ul className='flex justify-start items-center md:justify-start my-4 ml-2'>
                     {linkOptions.map(([title, icon, url]) => {
                         return (
                             <li key={title} className='mx-2 h-8'>

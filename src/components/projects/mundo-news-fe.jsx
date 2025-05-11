@@ -33,7 +33,7 @@ export default function MundoNewsFe () {
                         return (
                         <li key= {tech} className="mt-2 mb-4 mx-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
                             <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
-                            <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
+                            <p className="my-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
                     })
