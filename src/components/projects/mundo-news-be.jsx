@@ -20,7 +20,7 @@ export default function MundoNewsBe () {
     ]
 
     return (
-        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
+        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-linear-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
             <h2 className="text-xl font-medium pb-4 dark:text-white">Mundo News - Backend</h2>
             <p>A RESTful API backend project built using JavaScript and Express.js to interact with a PostgreSQL database. This project was constructed and tested within 5 days as part of the backend phase of my Northcoders Software Development Bootcamp.
             </p>
@@ -32,9 +32,9 @@ export default function MundoNewsBe () {
                 {
                     techStack.map(([tech, url]) => {
                         return (
-                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                        <li key= {tech} className="mt-2 mb-4 mx-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
                             <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
-                            <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
+                            <p className="my-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
                     })

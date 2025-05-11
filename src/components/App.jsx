@@ -20,7 +20,7 @@ function App() {
         <div className="grow"></div>
         <Navbar />
       </nav>
-      <main className="max-w-screen-2xl m-0 pr-8 pl-8 text-center min-w-[375px]">
+      <main className="max-w-(--breakpoint-2xl) m-0 pr-8 pl-8 text-center min-w-[375px]">
         <Header/>
         <section className="md:pt-20 md:flex md:justify-end ">
           <Routes>

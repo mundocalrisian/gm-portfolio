@@ -14,7 +14,7 @@ export default function PokemonBattler (){
     ]
 
     return (
-        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
+        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-linear-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
             <h2 className="text-xl font-medium pb-4 dark:text-white">Pokemon Battler</h2>
             <p>A simple Node JS CLI (command line interface) 2 player game based on the popular Pokemon franchise.
             </p>
@@ -25,16 +25,16 @@ export default function PokemonBattler (){
                 {
                     techStack.map(([tech, url]) => {
                         return (
-                        <li key= {tech} className="mt-2 mb-4 ml-1 mr-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
+                        <li key= {tech} className="mt-2 mb-4 mx-1 flex flex-col items-center text-center border rounded-xl border-sky-400/40 bg-sky-300/10 dark:border-sky-900 dark:bg-sky-950">
                             <img src={url} alt={`${tech} logo`}className="h-10 w-10 mt-4"/>
-                            <p className="mt-2 mb-2 w-24 text-xs text-center">{tech}</p>
+                            <p className="my-2 w-24 text-xs text-center">{tech}</p>
                         </li>
                     )
                     })
                 }
             </ul>
             <div className="flex flex-wrap justify-around mt-4 ">
-                <video className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md" width="85%" webkit-playsInline playsInline autoPlay muted controls alt="a demonstration of the game">
+                <video className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md" width="85%" webkit-playsinline="true" autoPlay muted controls alt="a demonstration of the game">
                     <source src={pbVideo} type="video/mp4"/>
                 </video>
             </div>
