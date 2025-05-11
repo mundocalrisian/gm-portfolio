@@ -34,7 +34,7 @@ export default function PokemonBattler (){
                 }
             </ul>
             <div className="flex flex-wrap justify-around mt-4 ">
-                <video className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md" width="85%" webkit-playsinline="true" autoPlay muted controls alt="a demonstration of the game">
+                <video className="p-2 mb-4 border border-zinc-300 bg-white drop-shadow-md" width="85%" webkit-playsinline="true" muted controls alt="a demonstration of the game">
                     <source src={pbVideo} type="video/mp4"/>
                 </video>
             </div>
