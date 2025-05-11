@@ -20,7 +20,7 @@ export default function Portfolio () {
     ]
 
     return (
-        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-gradient-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
+        <section className="bg-zinc-200/30 border border-orange-50 hover:border-slate-400 hover:bg-sky-200/10 dark:bg-zinc-900/20 dark:border-zinc-800 dark:hover:border dark:hover:border-gray-700 dark:hover:bg-transparent dark:hover:bg-linear-to-b from-slate-800/50 to-gray-700/30 rounded-3xl mb-6 p-6">
             <h2 className="text-xl font-medium pb-4 dark:text-white">gregmunden.dev</h2>
             <p>The very site that you're perusing now was a great opportunity for me to learn Taildwind CSS whilst trying out some new ideas and showcasing some of the skills I've learnt over the past few months.  
             </p>
