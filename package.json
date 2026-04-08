@@ -18,7 +18,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-photo-album": "^2.3.1",
-    "react-router-dom": "^6.23.0",
+    "react-router-dom": "^6.30.3",
     "yet-another-react-lightbox": "^3.18.0"
   },
   "devDependencies": {
@@ -32,6 +32,6 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "postcss": "^8.4.38",
     "tailwindcss": "^4.1.6",
-    "vite": "^6.4.1"
+    "vite": "^6.4.2"
   }
 }
