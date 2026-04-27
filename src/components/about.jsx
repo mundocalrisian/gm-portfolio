@@ -11,6 +11,8 @@ import tailwindLogo from "../assets/tech-stack-logos/tailwindcss.svg"
 import gitLogo from "../assets/tech-stack-logos/git.svg"
 import salesforceLogo from '../assets/tech-stack-logos/salesforce.svg'
 import lwcLogo from '../assets/tech-stack-logos/lwc.svg'
+import claudeLogo from "../assets/tech-stack-logos/claude.svg"
+import jiraLogo from "../assets/tech-stack-logos/jira.svg"
 
 export default function About () {
 
@@ -22,17 +24,20 @@ export default function About () {
         cssLogo
     ]
     const techStack2 = [
-        gitLogo,
+        claudeLogo,
         vsCodeLogo,
+        gitLogo,
+        // atlassianLogo,
+        jiraLogo,
         nodeLogo,
+    ]
+    
+    const techStack3 = [
         postgreSqlLogo, 
         jestLogo,
-    ]
-
-    const techStack3 = [
         npmLogo, 
         tailwindLogo,
-        lwcLogo
+        lwcLogo,
     ]
     
     return (
